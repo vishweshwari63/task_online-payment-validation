@@ -1,0 +1,93 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f2f2f2;
+  padding: 40px;
+}
+
+.payment-form {
+  max-width: 400px;
+  margin: auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #333;
+}
+
+label {
+  font-weight: 600;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.error {
+  color: red;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+
+.card-type {
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.card-preview {
+  background: linear-gradient(135deg, #323232, #4f4f4f);
+  color: #fff;
+  width: 350px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 16px;
+  transition: transform 0.3s ease;
+}
+
+.card-preview:hover {
+  transform: scale(1.02);
+}
+
+.card-preview .card-number {
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.card-preview .card-name,
+.card-preview .card-expiry {
+  font-size: 14px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
